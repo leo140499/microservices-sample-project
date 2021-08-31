@@ -1,0 +1,12 @@
+server:
+  port: 9296
+
+spring:
+  application:
+    name: SERVER-CONFIG
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/leo140499/config-server
+          clone-on-start: true
